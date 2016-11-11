@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
                     Intent intent = MainActivity.this.getPackageManager().getLaunchIntentForPackage(packageName);
                     startActivity(intent);
                 }catch (Exception e){
-                    Toast.makeText(MainActivity.this,"应用无法打开",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this,"应用打开时出错",Toast.LENGTH_SHORT).show();
                 }
 
             }
